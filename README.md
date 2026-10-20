@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="brand/icon.png" alt="Patina: a material orb painted in red, chipped down to steel on the edges" width="160">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/readme-banner-dark.png">
+    <img src="brand/readme-banner-light.png" alt="Patina: a material ball with eyes, its green coat worn to copper on the edge" width="100%">
+  </picture>
 </p>
 
 # Patina
@@ -91,6 +94,10 @@ installed it is used directly; otherwise put `SF-Pro-Text-Regular.otf`, `SF-Pro-
 Patina was written from Adobe's public documentation and general PBR knowledge. No Substance binary was downloaded, run or
 inspected. See [replica/recon.md](replica/recon.md) and the feature map in [replica/features.csv](replica/features.csv).
 Substance and Adobe are trademarks of Adobe Inc.; Patina is not affiliated with Adobe.
+
+## Brand
+
+The sign, wordmark, lockups and icons live in [brand/](brand/README.md).
 
 ## License
 

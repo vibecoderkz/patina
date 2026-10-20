@@ -46,13 +46,16 @@ export function Icon({ name, size = 16 }: { name: IconName; size?: number }) {
   );
 }
 
-/** App mark: a sphere split into a worn half and a painted half. */
+/** App mark: the Patina sign, a material ball with eyes whose verdigris coat is worn to copper on
+ * the lower right rim (master geometry: ~/projects/design/patina-logo, small-size variant). */
 export function Mark({ size = 22 }: { size?: number }) {
   return (
-    <svg viewBox="0 0 32 32" width={size} height={size} aria-hidden>
-      <circle cx="16" cy="16" r="13" fill="#0a0a0b" />
-      <path d="M16 3a13 13 0 0 1 0 26c-3.5-2.6-5.5-7.6-5.5-13S12.5 5.6 16 3Z" fill="#ff3b2e" />
-      <circle cx="11.5" cy="11" r="2.6" fill="#ffffff" opacity="0.85" />
+    <svg viewBox="0 0 100 100" width={size} height={size} aria-hidden>
+      <path d="M0 50A50 50 0 1 0 100 50A50 50 0 1 0 0 50Z" fill="#4FD8B0" />
+      <path d="M100.0 49.4L98.7 38.7L95.2 28.6L89.6 19.5L82.4 11.9L87.7 19.4L89.0 24.2L90.8 28.1L90.6 33.7L91.8 37.6L93.5 40.8L90.4 47.1L92.0 50.7L88.3 52.7L87.4 57.1L89.5 62.7L86.1 64.9L82.7 66.3L84.1 71.6L81.1 75.7L75.9 78.6L70.3 84.7L66.1 83.2L63.7 85.0L60.6 85.5L56.1 88.4L47.0 93.0L42.7 90.6L39.7 90.5L34.0 91.6L30.3 90.9L27.0 89.1L22.7 89.2L17.7 86.6L11.9 82.4L17.1 87.7L23.3 92.2L30.0 95.8L37.3 98.3L44.8 99.7L52.5 99.9L60.1 99.0L67.4 96.9L74.4 93.7L80.8 89.4L86.4 84.3L91.2 78.3L95.1 71.7L97.8 64.5L99.5 57.0Z" fill="#E2783E" />
+      <path d="M13.9 38.3L18.1 30.3L22.5 24.6L27.4 20.1L34.5 15.6L34.9 13.7L34.0 12.1L32.9 11.6L31.7 11.7L26.2 14.8L20.7 19.2L16.3 24.1L12.5 30.0L9.9 36.1L10.5 37.9L12.0 38.8Z" fill="#B8F3E2" />
+      <path d="M28.7 53A8.5 15 0 1 0 45.7 53A8.5 15 0 1 0 28.7 53ZM54.3 53A8.5 15 0 1 0 71.3 53A8.5 15 0 1 0 54.3 53Z" fill="#0E1A17" />
+      <path d="M36.9 46.9L37.4 46.0L37.2 45.0L36.5 44.3L35.4 44.2L32.2 46.7L31.8 47.4L31.8 48.2L32.5 49.2L33.8 49.4ZM62.5 46.9L63.0 46.0L62.8 45.0L62.1 44.3L61.0 44.2L57.8 46.7L57.4 47.5L57.4 48.2L58.1 49.2L59.4 49.4Z" fill="#FFFFFF" />
     </svg>
   );
 }

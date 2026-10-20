@@ -22,7 +22,8 @@ Research log: [RESEARCH.md](RESEARCH.md). Recon of Substance 3D Painter: [replic
 - Everything procedural is evaluated in object space (no UV-space effects that would show seams).
 - Look at renders, not just tests: `npx tsx examples/smart-sheet.mts out.png` renders every smart material; `patina sheet` for a document.
 - Error messages are part of the agent UX: name the field and the fix.
-- Brand: dialektai style (SF Pro, `#FF3B2E`, ink `#0a0a0b`, `#f6f6f4`), heroicons outline, no emoji, no em-dash in UI copy.
+- Logo and icons: `brand/` (built by `~/projects/design/patina-logo/build.py`; never hand-edit the SVG masters, rebuild them). App mark in `apps/desktop/src/icons.tsx` `Mark`.
+- Brand (UI): dialektai style (SF Pro, `#FF3B2E`, ink `#0a0a0b`, `#f6f6f4`), heroicons outline, no emoji, no em-dash in UI copy.
 - Attribution "Developed by Dias Zhumagaliyev: https://dias.now · hello@dias.now": About dialog, `patina --version`, `Patina --version`, README footer. LICENSE is MIT.
 - SF Pro font files are gitignored (Apple license forbids redistribution); never commit them.
 - Before done: `npm run build` clean (tests + typecheck + bundles).
