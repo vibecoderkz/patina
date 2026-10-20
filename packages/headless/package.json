@@ -1,0 +1,19 @@
+{
+  "name": "@patina/headless",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "patina": "dist/patina.js"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@patina/core": "*",
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "zod": "^4.6.7"
+  },
+  "license": "MIT",
+  "author": "Dias Zhumagaliyev <hello@dias.now> (https://dias.now)"
+}
